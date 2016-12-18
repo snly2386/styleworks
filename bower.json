@@ -1,0 +1,20 @@
+{
+  "name": "bloom_framework",
+  "authors": [
+    "Christopher Palmer <snly2386@gmail.com>"
+  ],
+   "ignore": [
+    "bower.json",
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
