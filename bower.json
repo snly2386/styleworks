@@ -3,9 +3,6 @@
   "authors": [
     "Christopher Palmer <snly2386@gmail.com>"
   ],
-   "ignore": [
-    "bower.json",
-  ],
   "description": "",
   "main": "",
   "license": "MIT",
