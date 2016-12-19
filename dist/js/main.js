@@ -156,14 +156,14 @@ var clipSetting = {}, appSetting = {};
 		};
 	};
 	$('.lettericon').letterIcon();
-	
+
 	$('.sidebar-toggler').on('click', function(){
 		app.toggleClass('app-sidebar-closed');
 		$('#closed-sidebar').siblings().remove();
 		$('#closed-sidebar').prop('checked', app.hasClass('app-sidebar-closed'));
 		var switchery = new Switchery(document.getElementById('closed-sidebar'));
 		appSetting.closedSidebar = app.hasClass('app-sidebar-closed');
-				
+
 	});
 	// navbar collapse
 	var navbarHandler = function() {
@@ -277,7 +277,7 @@ var clipSetting = {}, appSetting = {};
 	};
 	// settings
 	var settingsHandler = function() {
-		
+
 		clipSetting = {
 			fixedHeader : true,
 			fixedSidebar : true,
@@ -286,11 +286,11 @@ var clipSetting = {}, appSetting = {};
 			theme : 'lyt6-theme-1'
 		};
 
-		if (Cookies.get('clip-setting')) {
-			appSetting = $.parseJSON(Cookies.get('clip-setting'));
-		} else {
-			appSetting = clipSetting;
-		}
+		// if (Cookies.get('clip-setting')) {
+		// 	appSetting = $.parseJSON(Cookies.get('clip-setting'));
+		// } else {
+		// 	appSetting = clipSetting;
+		// }
 
 		appSetting.fixedHeader ? app.addClass('app-navbar-fixed') : app.removeClass('app-navbar-fixed');
 		appSetting.fixedSidebar ? app.addClass('app-sidebar-fixed') : app.removeClass('app-sidebar-fixed');
@@ -366,7 +366,7 @@ var clipSetting = {}, appSetting = {};
 
 	$('#save-layout').on('click', function() {
 		saveLayout.ladda('start');
-		Cookies.set("clip-setting", JSON.stringify(appSetting));
+		// Cookies.set("clip-setting", JSON.stringify(appSetting));
 		setTimeout(function() {
 			saveLayout.ladda('stop');
 		}, 1500);
@@ -376,7 +376,7 @@ var clipSetting = {}, appSetting = {};
 
 	$('#reset-layout').on('click', function() {
 		resetLayout.ladda('start');
-		Cookies.remove('clip-setting');
+		// Cookies.remove('clip-setting');
 		$('input.js-switch').siblings().remove();
 		$('#fixed-header').prop('checked', true);
 		$('#fixed-sidebar').prop('checked', true);
