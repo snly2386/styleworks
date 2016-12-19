@@ -1,4 +1,4 @@
-/* ---------------------------------------------------------------------- 
+/* ----------------------------------------------------------------------
 >>> TABLE OF CONTENT
 -------------------------------------------------------------------------
 1 - Basic Elements & Classes
@@ -524,7 +524,7 @@ span[role="slider"] {
 .navbar .navbar-collapse {
   border-bottom: 1px solid transparent;
   border-top: none;
-  background: #2C2F3B;
+  background: #192532;
   padding-left: 15px !important;
   padding-right: 15px !important;
   position: relative;
@@ -883,8 +883,8 @@ span[role="slider"] {
     display: none;
   }
   .navbar .navbar-left > li.sidebar-toggler-wrapper .btn {
-    background-color: #C82E29;
-    border-color: #C82E29;
+    background-color: #f76b6c;
+    border-color: #f76b6c;
     color: #ffffff;
     float: none !important;
     display: inline-block !important;
@@ -1407,7 +1407,7 @@ span[role="slider"] {
 }
 #sidebar > div, #sidebar .sidebar-container {
   height: 100%;
-  background: #D7D6DB;
+  background: #192532;
 }
 @media (min-width: 992px) {
   #sidebar > div, #sidebar .sidebar-container {
