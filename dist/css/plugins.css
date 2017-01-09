@@ -1,30 +1,4 @@
-/* ---------------------------------------------------------------------- 
->>> TABLE OF CONTENT
--------------------------------------------------------------------------
-1 - TREE
-2 - IMAGE CROP    
-3 - PERFECT-SCROLLBAR
-4 - FILE UPLOAD
-5 - NESTABLE
-6 - SWEET ALERT
-7 - CALENDAR
-8 - CHARTJS
-9 - NOTIFICATION ICONS
-10 - ANGULAR AWESOME SLIDER
-11 - BOOTSTRAP DATERANGE PICKER
-12 - ANGULAR COLORPICKER
-13 - CKEDITOR
-14 - SLICK
-15 - ANGULAR-UI-SWITCH
-/* ---------------------------------------------------------------------- */
-/*
 
-
-
-*/
-/* ---------------------------------------------------------------------- */
-/*  Tree
-/* ---------------------------------------------------------------------- */
 .box-tree .nav > li > a {
   color: #8e8e93;
   font-size: 14px;
@@ -42,9 +16,6 @@
   color: #ffffff;
 }
 
-/* ---------------------------------------------------------------------- */
-/*  Crop Image
-/* ---------------------------------------------------------------------- */
 .cropBox {
   background-color: #f5f5f5;
   border-radius: 4px;
@@ -74,9 +45,6 @@ img-crop {
   background-size: 100px 100px;
 }
 
-/* ---------------------------------------------------------------------- */
-/*  Perfect Scrollbar
-/* ---------------------------------------------------------------------- */
 .perfect-scrollbar {
   overflow-y: hidden !important;
 }
@@ -136,9 +104,6 @@ img-crop {
   border-radius: 0 !important;
 }
 
-/* ---------------------------------------------------------------------- */
-/*  File Upload
-/* ---------------------------------------------------------------------- */
 .my-drop-zone {
   border: dotted 1px lightgray;
 }
@@ -147,7 +112,6 @@ img-crop {
   border: dotted 1px #C82E29;
 }
 
-/* Default class applied to drop zones on over */
 .another-file-over-class {
   border: dotted 1px #5A8770;
 }
@@ -162,9 +126,6 @@ img-crop {
   margin: 6px 0 0 6px;
 }
 
-/* ---------------------------------------------------------------------- */
-/*  Nestable
-/* ---------------------------------------------------------------------- */
 .angular-ui-tree-handle {
   background: #f7f7f8;
   border: 1px solid #c8c7cc;
@@ -218,9 +179,6 @@ img-crop {
   border-color: #a6a4ac !important;
 }
 
-/* ---------------------------------------------------------------------- */
-/*  Sweet Alert
-/* ---------------------------------------------------------------------- */
 .sweet-overlay {
   z-index: 9998 !important;
 }
@@ -238,9 +196,6 @@ img-crop {
   box-shadow: none !important;
 }
 
-/* ---------------------------------------------------------------------- */
-/*  Calendar
-/* ---------------------------------------------------------------------- */
 #calendar {
   position: relative;
 }
@@ -483,9 +438,6 @@ canvas.chart-bar, canvas.chart-line {
   line-height: 150px;
 }
 
-/* ---------------------------------------------------------------------- */
-/*  Notification Icons
-/* ---------------------------------------------------------------------- */
 .demo-notification-icons notification-icon {
   display: table;
   margin: 0 auto;
@@ -518,9 +470,6 @@ canvas.chart-bar, canvas.chart-line {
   color: black;
 }
 
-/* ---------------------------------------------------------------------- */
-/*  bootstrap daterangepicker
-/* ---------------------------------------------------------------------- */
 .daterangepicker .calendar th {
   font-family: inherit !important;
   color: #5b5b60;
@@ -640,9 +589,6 @@ canvas.chart-bar, canvas.chart-line {
   }
 }
 
-/* ---------------------------------------------------------------------- */
-/*  CKeditor
-/* ---------------------------------------------------------------------- */
 .cke_chrome {
   -moz-box-shadow: none !important;
   -webkit-box-shadow: none !important;
@@ -705,9 +651,6 @@ canvas.chart-bar, canvas.chart-line {
   background-color: #FFFFFF !important;
 }
 
-/* ---------------------------------------------------------------------- */
-/*  Slick Carousel
-/* ---------------------------------------------------------------------- */
 .slick-slide {
   outline: none !important;
 }
@@ -767,9 +710,6 @@ canvas.chart-bar, canvas.chart-line {
   display: none;
 }
 
-/* ---------------------------------------------------------------------- */
-/* Bootsrap Slider
-/* ---------------------------------------------------------------------- */
 .slider {
   display: inline-block;
   position: relative;
@@ -913,9 +853,6 @@ canvas.chart-bar, canvas.chart-line {
   margin-left: -10px !important;
 }
 
-/* ---------------------------------------------------------------------- */
-/*  jquery knob
-/* ---------------------------------------------------------------------- */
 input.dial {
   background: inherit !important;
   color: inherit !important;
@@ -925,9 +862,6 @@ input.dial:hover, input.dial:focus {
   color: inherit !important;
 }
 
-/* ---------------------------------------------------------------------- */
-/*  angular-ui-switch
-/* ---------------------------------------------------------------------- */
 .js-switch.checked.azure {
   background: #5B9BD1;
   border-color: #5B9BD1;
@@ -993,9 +927,6 @@ input.dial:hover, input.dial:focus {
   border-color: rgba(255, 255, 255, 0.5);
 }
 
-/* ---------------------------------------------------------------------- */
-/*  Jcrop - Crop Image
-/* ---------------------------------------------------------------------- */
 .crop-image form {
   margin: 1.5em 0;
 }
@@ -1017,18 +948,12 @@ input.dial:hover, input.dial:focus {
   box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.2);
 }
 
-/* The Javascript code will set the aspect ratio of the crop
- area based on the size of the thumbnail preview,
- specified here */
 #preview-pane .preview-container {
   width: 250px;
   height: 170px;
   overflow: hidden;
 }
 
-/* ---------------------------------------------------------------------- */
-/*  Multiple File Upload
-/* ---------------------------------------------------------------------- */
 .fileupload .uneditable-input {
   white-space: nowrap;
 }
@@ -1056,9 +981,6 @@ input.dial:hover, input.dial:focus {
   transform: translate(-300px, 0px) scale(4);
 }
 
-/* ---------------------------------------------------------------------- */
-/*  bootstrap daterangepicker
-/* ---------------------------------------------------------------------- */
 .sp-container {
   z-index: 1088 !important;
   background-color: #fff !important;
@@ -1222,9 +1144,6 @@ input.dial:hover, input.dial:focus {
   display: none;
 }
 
-/* ---------------------------------------------------------------------- */
-/*  Maps
-/* ---------------------------------------------------------------------- */
 .map {
   display: block;
   height: 350px;
